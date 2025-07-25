@@ -1,6 +1,4 @@
-Here's a detailed and well-structured `README.md` file for your project **Optimizing Liver Cirrhosis Stage Classification**, based on the provided files and project purpose.
 
----
 
 ### ✅ `README.md`
 
