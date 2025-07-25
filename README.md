@@ -22,22 +22,20 @@ This project demonstrates the power of **data preprocessing**, **feature selecti
 ---
 
 ## 📁 File Structure
-
-```
-
 Optimizing-Liver-Cirrhosis-Stage-Classification/
-├── app.py                          # Streamlit app for stage prediction
-├── liver\_cirrhosis.csv             # Original dataset
-├── scaler.pkl                      # StandardScaler used in preprocessing
-├── selector.pkl                    # Feature selector object (e.g., SelectFromModel)
-├── selected\_features.pkl           # List of selected top features
-├── RF\_stage\_model\_train\_download\_link.txt  # Link or log related to trained RF model
-├── app-01-05-2025\_11\_22\_AM.png     # Screenshot of the deployed app
-└── README.md                       # Project documentation
+│
+├── app.py                         # Streamlit web application for predicting cirrhosis stages
+├── liver_cirrhosis.csv            # Original dataset containing clinical data
+│
+├── scaler.pkl                     # Trained StandardScaler for feature normalization
+├── selector.pkl                   # Feature selection object used to reduce input features
+├── selected_features.pkl          # List of feature names selected during model training
+│
+├── RF_stage_model_train_download_link.txt  # (Optional) Link or metadata related to trained RF model
+├── app-01-05-2025_11_22_AM.png    # Screenshot of the Streamlit app interface
+│
+└── README.md                      # Documentation file (you are here)
 
-````
-
----
 
 ## 🚀 How to Run
 
